@@ -18,7 +18,9 @@ public class TestSql {
             int i = 0;
             int j = 1;
             int k = i + j;
+            int s = 1 + 2 + k;
             System.out.println(k);
+            System.out.println(s);
 
         } catch (Exception e) {
             e.printStackTrace();
